@@ -1,0 +1,23 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+}
+
+
+ul,
+li {
+    display: inline-block;
+}
+
+a {
+    border-radius: 50%;
+    background: #fff;
+}
+

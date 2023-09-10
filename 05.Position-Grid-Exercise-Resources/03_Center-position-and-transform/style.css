@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 20em;
+}
+
+
+.card a {
+    display: block;
+    padding: 0.5em 1em;
+    background: rgb(0, 153, 0);
+    color: white;
+    border-radius: 0.3em;
+    margin-left: auto;
+    /* align-self: self-end */
+}
+
+.card p {
+    padding-bottom: 1.5em;
+}
+
+.card h3 {
+    font: 1em/1.2 Georgia, serif;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.card .media {
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .media:after {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+    /* 9/16 * 100 */
+}
+
+.card .media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card .content {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
