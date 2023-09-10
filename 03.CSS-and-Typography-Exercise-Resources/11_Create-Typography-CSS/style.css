@@ -1,0 +1,13 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body h1 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: rgb(221, 221, 221);
+    font-style: italic;
+}
