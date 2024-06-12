@@ -1,0 +1,53 @@
+header {
+    background: url(../images/background.jpg);
+    background-size: 100% auto;
+    background-position: center -12em;
+    background-repeat: no-repeat;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 40px;
+}
+
+.site-nav img {
+    width: 70px;
+    height: 100%;
+}
+
+.site-nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.site-nav ul li {
+    list-style: none;
+}
+
+.site-nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.site-heading {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 530px;
+    padding: 20px 0;
+}
+
+.site-text{
+    color: white;
+    width: 520px;
+    padding-bottom: 150px;
+    line-height: 1.5;
+}
+
+.site-heading,
+.site-text{
+    padding-left: 150px;
+}
