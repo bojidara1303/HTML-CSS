@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+header h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 85px;
+}
+
+header p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.customer-testimonial-text {
+    font-style: italic;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 0.8;
+}
+
+.customer-testimonial-title {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+.support h3 {
+    font-family: 'Karla', sans-serif;
+}
+
+.support p,
+.understand-your-mind-container p,
+.find-guide p,
+.footer-text {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.understand-your-mind h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.find-guide h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.copyright{
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}

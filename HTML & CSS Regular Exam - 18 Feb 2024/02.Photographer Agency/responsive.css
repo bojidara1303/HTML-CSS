@@ -1,0 +1,42 @@
+@media all and (max-width:600px) {
+
+    header nav ul li {
+        display: flex;
+        justify-content: center;
+        line-height: 2;
+    }
+
+    .header-title h1 {
+        font-size: 35px;
+    }
+
+    .header-title {
+        padding: 6em 2em;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+    }
+
+    p {
+        padding: 0 110px 20px;
+    }
+
+    .about-us>p ,.team-description-wrapper>p {
+        padding: 0;
+    }
+
+    .about-us:nth-child(2) {
+        width: 75%;
+    }
+
+    .team-description ul{
+        justify-content: center;
+    }
+
+    .team-description ul li img{
+        width: 150px;
+        height: 150px;
+    }
+
+}

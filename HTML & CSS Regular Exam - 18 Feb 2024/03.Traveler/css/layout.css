@@ -1,0 +1,114 @@
+/* Customer Testimonial */
+
+.customer-testimonial {
+    background-color: #f9f1e9;
+    padding: 30px 0;
+}
+
+.customer-testimonial-text {
+    width: 680px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.customer-testimonial-title {
+    padding-left: 335px;
+}
+
+
+/* Support */
+
+.support {
+    background-color: #de4643;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.support h3 {
+    padding-bottom: 20px;
+}
+
+.support p {
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+/* Understand Your Mind */
+
+.understand-your-mind {
+    background-color: #f9f1e9;
+    padding: 40px 0;
+}
+
+.understand-your-mind-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.understand-your-mind h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.understand-your-mind img {
+    width: 400px;
+    height: auto;
+}
+
+.understand-your-mind-container p {
+    padding-bottom: 50px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.read-more {
+    margin-bottom: 50px;
+    padding: 7px 0px;
+    width: 100px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.read-all {
+    padding: 7px 5px;
+    width: 100px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+/* Find Guide */
+
+.find-guide {
+    background-color: #e04647;
+    padding: 40px 0;
+}
+
+.find-guide h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.find-guide p {
+    color: white;
+    width: 670px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.find {
+    background-color: #fbd87b;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin-left: 620px;
+}
