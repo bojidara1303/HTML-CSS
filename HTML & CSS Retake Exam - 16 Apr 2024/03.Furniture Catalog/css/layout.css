@@ -1,0 +1,153 @@
+/* Catalog */
+
+.catalog-section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    background-color: #60adc0;
+}
+
+.project-container {
+    display: flex;
+    gap: 180px;
+    margin: 0 auto;
+}
+
+.project {
+    display: flex;
+    width: 420px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 15px 14px 18px -9px rgba(0,0,0,0.72);
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 40px 20px;
+}
+
+.project-text h4{
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.project-text p{
+    font-size: 12px;
+    
+}
+
+.img-container {
+    width: 65%;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.catalog-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.catalog-par {
+    text-align: center;
+    padding: 3px 0 30px 0;
+}
+
+/* Products */
+
+.items-container {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+#image {
+    width: 100px;
+    height: 100px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.item h5 {
+    color: #747983;
+    font-size: 17px;
+    padding: 10px 0 15px 0;
+}
+
+.item p {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Pictures */
+
+.pictures {
+    background-color: #60adc0;
+    padding: 30px 0;
+}
+
+.pictures h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pictures p {
+    text-align: center;
+    padding: 3px 0 30px 0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.pictures-wrapper {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.pictures-wrapper img {
+    width: 270px;
+    box-shadow: 7px 11px 18px -8px rgba(0, 0, 0, 0.72);
+}
+
+/* About Us */
+
+.about-us {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.about-us h4{
+    color: #67696a;
+    font-size: 18px;
+}
+
+.about-us h5{
+    font-style: italic;
+    color: #67696a;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0 0 30px 0;
+}
+
+.about-us  p {
+    color: #67696a;
+    font-size: 13px; 
+    padding: 0 325px;
+}
+
