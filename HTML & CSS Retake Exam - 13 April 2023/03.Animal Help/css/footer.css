@@ -1,0 +1,48 @@
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 50px 0;
+    align-items: center;
+}
+
+.contacts-left {
+    display: flex;
+}
+
+.contacts-right {
+    display: flex;
+}
+
+
+.contacts-left li {
+    list-style: none;
+}
+
+.contacts-left li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.contacts-right {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-right li {
+    list-style-type: none;
+}
+
+.contacts-right li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.working-time{
+    color: grey;
+}
+
+.call {
+    padding: 10px 40px;
+    border: none;
+    background-color: #cbc2c3;
+}

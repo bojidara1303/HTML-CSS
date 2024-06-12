@@ -1,0 +1,49 @@
+.site-nav {
+    background-color: #f93700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 140px;
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+
+.search-bar input{
+    padding: 5px 150px 5px 0;
+
+}
+
+.search-bar i{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+}
+
+.my-account{
+    display: flex;
+    padding-right: 30px;
+    gap: 10px;
+    align-items: center;
+}
+
+.my-account a {
+    text-decoration: none;
+    color: white;
+}
+
+.my-account i{
+    color: white;
+}
