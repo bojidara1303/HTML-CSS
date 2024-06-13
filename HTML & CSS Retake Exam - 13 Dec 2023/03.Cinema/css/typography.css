@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navigation */
+
+.site-nav ul li a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.cinema-logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.by-imdb{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Description */
+
+.description-text {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Services */
+
+.service p {
+    font-size: 12px;
+    line-height: 2;
+}
+
+/* Info */
+
+.info-section p {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 0 25px 0;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+/* Benefits */
+
+.benefit h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.benefit p {
+    font-size: 11px;
+    line-height: 2;
+}
+
+/* Footer */
+
+footer p{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+

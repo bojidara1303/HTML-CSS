@@ -1,0 +1,52 @@
+.cinema-logo::after {
+    content: '';
+    width: 1px;
+    height: 35px;
+    left: 10px;
+    top: 9px;
+    display: inline-flex;
+    position: relative;
+    background: rgb(196, 196, 196);
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.cinema-logo{
+    color: #303130;
+}
+
+.by-imdb{
+    color: grey;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.site-nav ul {
+    display: flex;
+    gap: 2px;
+}
+
+.site-nav ul li {
+    list-style: none;
+    padding: 15px 20px;
+    background-color: rgb(230, 228, 228);
+}
+
+.site-nav ul li:first-child {
+    background-color: #57dab1;
+}
+
+.site-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
