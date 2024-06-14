@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Header */
+
+.whiteboard-your-ideas h1 {
+    font-size: 60px;
+}
+
+.whiteboard-your-ideas h3 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.buy-now{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.site-nav ul li a{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.site-nav ul li i{
+    font-size: 25px;
+}
+
+.whiteboard-your-ideas {
+    font-size: 20px;
+}
+
+/* Hustle what */
+
+.hustle-what-right h1{
+    font-size: 35px;
+}
+
+.hustle-what-subtitle{
+    font-size: 22px;
+}
+
+.benefit{
+    font-size: 18px;
+}
+
+.hustle-case-left h1{
+    font-size: 30px;
+}
+
+
+/* have-questions */
+
+.have-questions-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.question h2{
+    font-size: 21.5px;
+}
+
+.question-text{
+    font-size: 16.5px;
+}
+
+.email li a {
+    font-weight: bold;
+}

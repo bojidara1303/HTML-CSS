@@ -1,0 +1,141 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+/* Hustle what */
+
+.hustle-what {
+    display: flex;
+}
+
+.hustle-what-left {
+    width: 50%;
+}
+
+.hustle-what-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.hustle-what-right {
+    background-color: white;
+    width: 50%;
+}
+
+.hustle-what-right-container {
+    background-color: white;
+    padding: 40px 60px 20px 60px;
+}
+
+.hustle-what-right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hustle-what-right ul li i {
+    color: #00d08e;
+}
+
+.hustle-what-subtitle {
+    width: 500px;
+    padding: 10px 0 40px 0;
+}
+
+.benefit {
+    padding-bottom: 20px;
+}
+
+/* HusleCase */
+
+.hustle-case {
+    display: flex;
+}
+
+.hustle-case-left h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hustle-case-left {
+    width: 50%;
+}
+
+.hustle-case-left img {
+    width: 70px;
+}
+
+.hustle-case-benefits {
+    padding: 0 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.hustle-case-left h1 {
+    padding-bottom: 50px;
+}
+
+.hustle-case-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hustle-case-benefit h3 {
+    color: #00d08e;
+    padding-top: 10px;
+}
+
+.hustle-case-right {
+    width: 50%;
+}
+
+.hustle-case-right img {
+    width: 100%;
+    height: 100%;
+}
+
+/* have-questions */
+
+.have-questions {
+    background-color: #b3f1dc;
+    text-align: center;
+    padding: 0 80px;
+}
+
+.questions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.question {
+    width: 295px;
+    text-align: center;
+}
+
+.question h2 {
+    padding-bottom: 10px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 30px;
+}
+
+.have-questions-title {
+    padding: 30px 0 50px 0;
+}
+
+.email li a {
+    color: black;
+    text-decoration: none;
+}
+
+.email li {
+    list-style: none;
+}

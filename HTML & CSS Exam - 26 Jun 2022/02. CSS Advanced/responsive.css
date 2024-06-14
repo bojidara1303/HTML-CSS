@@ -1,0 +1,24 @@
+@media (max-width:600px) {
+
+    /* * {
+        overflow-x: hidden;
+    } */
+
+    body {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+        width: 100%;
+    }
+
+    main .left-to-right article {
+        border-radius: 150px;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+
+    }
+
+}
