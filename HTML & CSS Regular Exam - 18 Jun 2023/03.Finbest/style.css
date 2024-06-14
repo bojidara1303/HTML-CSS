@@ -1,0 +1,324 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+html {
+    box-sizing: border-box
+}
+
+body {
+    font: 15px/1.5 'Inter', sans-serif;
+}
+
+.left {
+    margin-left: 50px;
+    margin-right: 230px;
+}
+
+.right {
+    margin-left: 300px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sign-up {
+    background-color: rgba(173, 226, 223, 1);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.sign-up a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+.first-section {
+    background-color: rgba(173, 226, 223, 1);
+    padding: 60px 0;
+}
+
+.first-section h1 {
+    font-size: 55px;
+    text-align: center;
+
+}
+
+.first-section p {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.download-ios,
+.download-android {
+    background-color: #000;
+    padding: 15px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btns a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.android, .ios{
+    display: flex;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    /* flex: 0 0 15%; */
+    justify-content: center;
+    margin: 80px;
+
+}
+
+.card:nth-child(2) {
+    border-right: 1px solid rgba(219, 219, 219, 1);
+    border-left: 1px solid rgba(219, 219, 219, 1);
+
+}
+
+.card h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card p {
+    padding: 0 20px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(173, 226, 223, 1);
+    padding: 0 150px;
+}
+
+.three img {
+    border: 1px dashed rgba(152, 184, 182, 1);
+}
+
+.three h2 {
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.three .bold {
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.three a {
+    color: #000;
+    padding-top: 50px;
+}
+
+.three i {
+    padding-left: 10px;
+}
+
+.three p {
+    padding-bottom: 20px;
+}
+
+.three-section-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.pricing-plans {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(243, 245, 250, 1);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.pricing-plans-btn {
+    background-color: rgba(173, 226, 223, 1);
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 40px 610px 0 610px;
+}
+
+.pricing-plans h2 {
+    text-align: center;
+    font-size: 35px;
+    padding: 40px 0;
+}
+
+.plans-list {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+}
+
+.plan-card {
+    padding: 20px;
+    border-right: 1px solid rgba(219, 219, 219, 1);
+}
+
+.plan-card h4{
+    padding-top: 20px;
+}
+
+.plan-card .price {
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.plan-card .price-per-month {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.plan-card p {
+    font-size: 14px;
+}
+
+.price {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.plan-card h4 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.what-includes {
+    padding: 20px 0 50px 0;
+    border-top: 1px solid lightgrey;
+    line-height: 2;
+}
+
+.expand {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.expand h4 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.expand p {
+    padding: 0 15px;
+    margin: 15px 0;
+}
+
+
+.contact-us-btn {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 14px 10px;
+    margin: 150px 20px 30px 0;
+    border-radius: 10px;
+}
+
+.get-started-btn {
+    background-color: rgba(173, 226, 223, 1);
+    padding: 15px 40px;
+    text-align: center;
+    margin-top: -18px;
+    border-radius: 10px;
+}
+
+.expand {
+    background-color: rgba(173, 226, 223, 1);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.get-started {
+    background-color: rgba(173, 226, 223, 1);
+    padding: 50px 0;
+}
+
+.get-started h1 {
+    font-size: 45px;
+    text-align: center;
+    width: 500px;
+    line-height: 1.2;
+    margin: 0 auto;
+}
+
+.get-started>p {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.get-started .btns {
+    margin-top: 30px;
+}
+
+footer {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
