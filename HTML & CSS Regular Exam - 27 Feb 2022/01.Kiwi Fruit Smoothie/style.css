@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 2px 3px 11px 2px rgba(135, 131, 135, 1);
+}
+
+.container {
+    display: flex;
+    background-image: url("image/image1.png");
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 1px dotted #3b9e4f;
+    padding: 30px 0 5px 0;
+    font-size: 25px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    padding-top: 8px;
+    font-size: 17px;
+}
+
+.ingredients {
+    padding: 30px 0;
+    font-size: 16px;
+}
+
+.ingredients li {
+    padding: 3px 0;
+}
+
+.preparing {
+    font-size: 15px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 3px 35px;
+    border: 1px solid #3b9e4f;
+    text-align: center;
+}
+
+table th {
+    padding: 3px 35px;
+    border: 1px solid #3b9e4f;
+    text-align: center;
+}
+
+.right {
+    width: 450px;
+    height: auto;
+    margin: 20px 20px 20px 0;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    color: #268138;
+    font-weight: bold;
+}
+
+.ingredients li {
+    list-style: none;
+}
