@@ -1,0 +1,32 @@
+.site-header {
+    background-color: #d8d9d8;
+
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 15px 60px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.buy-now {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

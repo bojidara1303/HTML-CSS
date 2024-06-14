@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url("images/background.jpg");
+    background-size: 120% auto;
+    background-position: center -12em;
+    background-repeat: no-repeat;
+}
+
+.forum {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.first-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.art {
+    background-color: white;
+    width: 600px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    gap: 30px;
+}
+
+.left h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.left h2 {
+    font-size: 18px;
+}
+
+.left p {
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    padding: 0 0 20px 0;
+}
+
+.right {
+    width: 350px;
+}
+
+
+.third {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+}
+
+.up h1 {
+    font-weight: bold;
+    font-size: 90px;
+    padding: 40px 0 0 30px;
+}
+
+.up {
+    border-bottom: 1px solid lightgrey;
+}
+
+.up p {
+    padding: 0 29px;
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    padding-bottom: 100px;
+}
+
+.down {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.right img,
+.img-wrapper img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.img-wrapper img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    filter: grayscale(100%);
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name h2 {
+    font-size: 20px;
+}
+
+.name h6 {
+    font-size: 10px;
+    color: rgb(131, 131, 131);
+    font-weight: 500;
+}
