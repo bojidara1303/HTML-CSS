@@ -1,0 +1,89 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    display: flex;
+    width: 1000px;
+    height: 260px;
+    margin: 0 auto;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.left {
+    background-color: #e3f3fd;
+    width: 470px;
+    box-shadow: 2px 3px 5px 0px rgba(117, 115, 117, 1);
+    border-radius: 5px;
+}
+
+.right {
+    width: 470px;
+    border: 5px solid #52a8eb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.left-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px 0 20px 20px;
+}
+
+.benefit {
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    padding: 5px 0;
+    margin-left: 20px;
+}
+
+.benefit i {
+    color: #52a8eb;
+}
+
+button {
+    background-color: #52a8eb;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px 0px rgba(117, 115, 117, 1);
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.right-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 40px 0 30px;
+}
+
+.blue {
+    color: #52a8eb;
+    font-size: 40px;
+    font-weight: 600;
+}
